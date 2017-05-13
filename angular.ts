@@ -15,7 +15,7 @@ import {Pipe, PipeTransform, NgModule} from '@angular/core';
 @Pipe({
 	name: 'L'
 })
-class L implements PipeTransform {
+export class L implements PipeTransform {
     transform(value: string, ...more: string[]): string {
         return global.L(value, ...more);
     }

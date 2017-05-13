@@ -34,6 +34,7 @@ var L = (function () {
     ], L);
     return L;
 }());
+exports.L = L;
 var NativeScriptI18nModule = (function () {
     function NativeScriptI18nModule() {
     }
